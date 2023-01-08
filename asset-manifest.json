@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/.github.io/travel_journal/static/css/main.2a122017.css",
-    "main.js": "/.github.io/travel_journal/static/js/main.35cbe425.js",
-    "static/media/norway.jpeg": "/.github.io/travel_journal/static/media/norway.42243e1fabb2f5a58209.jpeg",
-    "static/media/sydney-opera-house.jpeg": "/.github.io/travel_journal/static/media/sydney-opera-house.46e25ac56ee47aed0f37.jpeg",
-    "static/media/mount-fuji.jpeg": "/.github.io/travel_journal/static/media/mount-fuji.6b2c28a7b03be152b459.jpeg",
-    "static/media/globe-icon.svg": "/.github.io/travel_journal/static/media/globe-icon.3310d34d6083f4d1f13bf92d2925d62c.svg",
-    "index.html": "/.github.io/travel_journal/index.html",
-    "main.2a122017.css.map": "/.github.io/travel_journal/static/css/main.2a122017.css.map",
-    "main.35cbe425.js.map": "/.github.io/travel_journal/static/js/main.35cbe425.js.map"
+    "main.css": "/travel_journal/static/css/main.2a122017.css",
+    "main.js": "/travel_journal/static/js/main.44e4b6e6.js",
+    "static/media/norway.jpeg": "/travel_journal/static/media/norway.42243e1fabb2f5a58209.jpeg",
+    "static/media/sydney-opera-house.jpeg": "/travel_journal/static/media/sydney-opera-house.46e25ac56ee47aed0f37.jpeg",
+    "static/media/mount-fuji.jpeg": "/travel_journal/static/media/mount-fuji.6b2c28a7b03be152b459.jpeg",
+    "static/media/globe-icon.svg": "/travel_journal/static/media/globe-icon.3310d34d6083f4d1f13bf92d2925d62c.svg",
+    "index.html": "/travel_journal/index.html",
+    "main.2a122017.css.map": "/travel_journal/static/css/main.2a122017.css.map",
+    "main.44e4b6e6.js.map": "/travel_journal/static/js/main.44e4b6e6.js.map"
   },
   "entrypoints": [
     "static/css/main.2a122017.css",
-    "static/js/main.35cbe425.js"
+    "static/js/main.44e4b6e6.js"
   ]
 }
