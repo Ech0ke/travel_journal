@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+.main {
+  min-width: 300px;
+}
+
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.nav--title {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: -0.075em;
+}
+
+
+.nav--logo {
+  filter: brightness(0) invert(1);
+  max-width: 35px;
+
+}
+
+nav {
+  display: flex;
+  height: 4.375rem;
+  background-color: #F55A5A;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #F5F5F5;
+  padding-bottom: 1.5rem;
+}
+
+.container:last-child {
+  border-bottom: none;
+}
+
+.card--text {
+  padding: 1rem 0rem 1rem 0.75rem;
+}
+
+.card--image {
+  /* width: 125px; */
+  width: 25%;
+  /* height: 168px; */
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.card--locationInfo {
+  display: flex;
+  font-size: 0.75rem;
+}
+
+.card--icon {
+  width: 9px;
+  margin-right: 0.25rem;
+  align-self: flex-start;
+}
+
+.card--location {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.17rem;
+}
+
+.card--link {
+  color: #918E9B;
+  text-decoration-line: underline;
+  margin-left: 1rem;
+}
+
+.card--title {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.card--date {
+  font-weight: 700;
+  font-size: 0.64rem
+}
+
+.card--description {
+  font-weight: 400;
+  font-size: 0.64rem;
+}
+
+@media screen and (max-width: 512px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card--image {
+    width: 100%;
+    
+  }
+}
